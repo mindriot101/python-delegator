@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from glob import glob
 import re
 
@@ -13,6 +13,6 @@ setup(name=package_name,
         author='Simon Walker',
         author_email='s.r.walker101@googlemail.com',
         url='http://github.com/mindriot101/python-delegator',
-        packages=['delegator', ],
+        packages=find_packages(),
         long_description=open('README.markdown').read(),
         )
