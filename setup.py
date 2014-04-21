@@ -14,5 +14,6 @@ setup(name=package_name,
         author_email='s.r.walker101@googlemail.com',
         url='http://github.com/mindriot101/python-delegator',
         packages=find_packages(),
+        zip_safe=True,
         long_description=open('README.markdown').read(),
         )
