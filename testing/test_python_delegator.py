@@ -1,5 +1,3 @@
-import sys
-sys.path.append('.')
 from delegator import Delegator
 
 class Delegatee(object):
