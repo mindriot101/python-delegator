@@ -6,7 +6,6 @@ class Delegatee(object):
 
 
 def test_delegator_is_separate_object():
-
     d = Delegatee()
     a = Delegator(d)
     a.delegator_method = lambda: 10
