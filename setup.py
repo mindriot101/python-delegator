@@ -15,5 +15,6 @@ setup(name=package_name,
         url='http://github.com/mindriot101/python-delegator',
         packages=find_packages(),
         zip_safe=True,
+        use_2to3=True,
         long_description=open('README.markdown').read(),
         )
